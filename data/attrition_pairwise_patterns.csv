@@ -1,0 +1,752 @@
+feature_1,feature_1_value,feature_2,feature_2_value,attrition_rate,support
+gender,Female,department,Finance,0.15921052631578947,760
+gender,Female,department,HR,0.1776798825256975,681
+gender,Female,department,IT,0.1456953642384106,755
+gender,Female,department,Marketing,0.1752136752136752,702
+gender,Female,department,Operations,0.16995447647951442,659
+gender,Female,department,R&D,0.14745308310991956,746
+gender,Female,department,Sales,0.16405135520684735,701
+gender,Male,department,Finance,0.17320703653585928,739
+gender,Male,department,HR,0.15620641562064155,717
+gender,Male,department,IT,0.150354609929078,705
+gender,Male,department,Marketing,0.17189631650750342,733
+gender,Male,department,Operations,0.15804597701149425,696
+gender,Male,department,R&D,0.16575342465753426,730
+gender,Male,department,Sales,0.14792899408284024,676
+gender,Female,jobrole,Analyst,0.1449814126394052,807
+gender,Female,jobrole,Coordinator,0.17016317016317017,858
+gender,Female,jobrole,Engineer,0.16331360946745563,845
+gender,Female,jobrole,Executive,0.14336075205640422,851
+gender,Female,jobrole,Manager,0.19294117647058823,850
+gender,Female,jobrole,Specialist,0.15762925598991173,793
+gender,Male,jobrole,Analyst,0.17249698431845598,829
+gender,Male,jobrole,Coordinator,0.16160388821385177,823
+gender,Male,jobrole,Engineer,0.15240328253223914,853
+gender,Male,jobrole,Executive,0.14560770156438027,831
+gender,Male,jobrole,Manager,0.1658711217183771,838
+gender,Male,jobrole,Specialist,0.16666666666666666,822
+gender,Female,overtime,No,0.13940256045519203,3515
+gender,Female,overtime,Yes,0.216252518468771,1489
+gender,Male,overtime,No,0.131811697574893,3505
+gender,Male,overtime,Yes,0.22870556673373574,1491
+gender,Female,age_bin,"(18, 30]",0.15747330960854092,1124
+gender,Female,age_bin,"(30, 40]",0.15670553935860057,1372
+gender,Female,age_bin,"(40, 50]",0.16310372129849565,1263
+gender,Female,age_bin,"(50, 65]",0.1718875502008032,1245
+gender,Male,age_bin,"(18, 30]",0.1697952218430034,1172
+gender,Male,age_bin,"(30, 40]",0.15975885455915598,1327
+gender,Male,age_bin,"(40, 50]",0.16340361445783133,1328
+gender,Male,age_bin,"(50, 65]",0.1497005988023952,1169
+gender,Female,income_bin,"(2999.999, 7292.0]",0.1624,1250
+gender,Female,income_bin,"(7292.0, 11588.5]",0.1630170316301703,1233
+gender,Female,income_bin,"(11588.5, 15743.5]",0.15177865612648223,1265
+gender,Female,income_bin,"(15743.5, 19999.0]",0.17197452229299362,1256
+gender,Male,income_bin,"(2999.999, 7292.0]",0.15907274180655476,1251
+gender,Male,income_bin,"(7292.0, 11588.5]",0.15718799368088468,1266
+gender,Male,income_bin,"(11588.5, 15743.5]",0.15384615384615385,1235
+gender,Male,income_bin,"(15743.5, 19999.0]",0.17282958199356913,1244
+gender,Female,distance_bin,"(0.999, 8.0]",0.16334072431633406,1353
+gender,Female,distance_bin,"(8.0, 15.0]",0.16942148760330578,1210
+gender,Female,distance_bin,"(15.0, 22.0]",0.16235864297253635,1238
+gender,Female,distance_bin,"(22.0, 29.0]",0.15378221113881962,1203
+gender,Male,distance_bin,"(0.999, 8.0]",0.1535764375876578,1426
+gender,Male,distance_bin,"(8.0, 15.0]",0.16998341625207297,1206
+gender,Male,distance_bin,"(15.0, 22.0]",0.14752724224643754,1193
+gender,Male,distance_bin,"(22.0, 29.0]",0.17335610589239966,1171
+gender,Female,tenure_bin,"(0, 2]",0.2245762711864407,472
+gender,Female,tenure_bin,"(2, 5]",0.15517241379310345,754
+gender,Female,tenure_bin,"(5, 10]",0.1419753086419753,1296
+gender,Female,tenure_bin,"(10, 40]",0.14686248331108145,2247
+gender,Male,tenure_bin,"(0, 2]",0.2,485
+gender,Male,tenure_bin,"(2, 5]",0.13852242744063326,758
+gender,Male,tenure_bin,"(5, 10]",0.15553809897879026,1273
+gender,Male,tenure_bin,"(10, 40]",0.1509689049121226,2219
+gender,Female,low_job_satisfaction,0,0.06037584966013595,2501
+gender,Female,low_job_satisfaction,1,0.2640831002796644,2503
+gender,Male,low_job_satisfaction,0,0.04790905399918798,2463
+gender,Male,low_job_satisfaction,1,0.2704303197789183,2533
+gender,Female,poor_work_life,0,0.13001215066828675,2469
+gender,Female,poor_work_life,1,0.19368836291913216,2535
+gender,Male,poor_work_life,0,0.12918853451756157,2477
+gender,Male,poor_work_life,1,0.19174275506153235,2519
+gender,Female,long_role_stagnation,0,0.16357615894039734,1510
+gender,Female,long_role_stagnation,1,0.16170578133943903,3494
+gender,Male,long_role_stagnation,0,0.17011340893929286,1499
+gender,Male,long_role_stagnation,1,0.1567057477838147,3497
+gender,Female,long_commute,0,0.16424116424116425,2405
+gender,Female,long_commute,1,0.16044632550981147,2599
+gender,Male,long_commute,0,0.15665584415584416,2464
+gender,Male,long_commute,1,0.1646919431279621,2532
+department,Finance,jobrole,Analyst,0.15086206896551724,232
+department,Finance,jobrole,Coordinator,0.18823529411764706,255
+department,Finance,jobrole,Engineer,0.14049586776859505,242
+department,Finance,jobrole,Executive,0.1422924901185771,253
+department,Finance,jobrole,Manager,0.21153846153846154,260
+department,Finance,jobrole,Specialist,0.15953307392996108,257
+department,HR,jobrole,Analyst,0.18181818181818182,264
+department,HR,jobrole,Coordinator,0.16942148760330578,242
+department,HR,jobrole,Engineer,0.1762114537444934,227
+department,HR,jobrole,Executive,0.13513513513513514,222
+department,HR,jobrole,Manager,0.15217391304347827,230
+department,HR,jobrole,Specialist,0.18309859154929578,213
+department,IT,jobrole,Analyst,0.1673469387755102,245
+department,IT,jobrole,Coordinator,0.13807531380753138,239
+department,IT,jobrole,Engineer,0.13333333333333333,240
+department,IT,jobrole,Executive,0.1148936170212766,235
+department,IT,jobrole,Manager,0.17120622568093385,257
+department,IT,jobrole,Specialist,0.1598360655737705,244
+department,Marketing,jobrole,Analyst,0.18666666666666668,225
+department,Marketing,jobrole,Coordinator,0.18410041841004185,239
+department,Marketing,jobrole,Engineer,0.1640625,256
+department,Marketing,jobrole,Executive,0.1686746987951807,249
+department,Marketing,jobrole,Manager,0.17647058823529413,238
+department,Marketing,jobrole,Specialist,0.16228070175438597,228
+department,Operations,jobrole,Analyst,0.14349775784753363,223
+department,Operations,jobrole,Coordinator,0.15348837209302327,215
+department,Operations,jobrole,Engineer,0.15418502202643172,227
+department,Operations,jobrole,Executive,0.1510204081632653,245
+department,Operations,jobrole,Manager,0.2301255230125523,239
+department,Operations,jobrole,Specialist,0.14563106796116504,206
+department,R&D,jobrole,Analyst,0.14222222222222222,225
+department,R&D,jobrole,Coordinator,0.14566929133858267,254
+department,R&D,jobrole,Engineer,0.17254901960784313,255
+department,R&D,jobrole,Executive,0.16363636363636364,275
+department,R&D,jobrole,Manager,0.14705882352941177,238
+department,R&D,jobrole,Specialist,0.16593886462882096,229
+department,Sales,jobrole,Analyst,0.13513513513513514,222
+department,Sales,jobrole,Coordinator,0.18143459915611815,237
+department,Sales,jobrole,Engineer,0.16334661354581673,251
+department,Sales,jobrole,Executive,0.12807881773399016,203
+department,Sales,jobrole,Manager,0.16371681415929204,226
+department,Sales,jobrole,Specialist,0.15966386554621848,238
+department,Finance,overtime,No,0.12863849765258217,1065
+department,Finance,overtime,Yes,0.25806451612903225,434
+department,HR,overtime,No,0.14285714285714285,980
+department,HR,overtime,Yes,0.22248803827751196,418
+department,IT,overtime,No,0.13106796116504854,1030
+department,IT,overtime,Yes,0.1883720930232558,430
+department,Marketing,overtime,No,0.14818548387096775,992
+department,Marketing,overtime,Yes,0.23024830699774265,443
+department,Operations,overtime,No,0.13771186440677965,944
+department,Operations,overtime,Yes,0.22384428223844283,411
+department,R&D,overtime,No,0.13072519083969467,1048
+department,R&D,overtime,Yes,0.21962616822429906,428
+department,Sales,overtime,No,0.13111342351716962,961
+department,Sales,overtime,Yes,0.21394230769230768,416
+department,Finance,age_bin,"(18, 30]",0.1378299120234604,341
+department,Finance,age_bin,"(30, 40]",0.1859903381642512,414
+department,Finance,age_bin,"(40, 50]",0.14987080103359174,387
+department,Finance,age_bin,"(50, 65]",0.1876750700280112,357
+department,HR,age_bin,"(18, 30]",0.15673981191222572,319
+department,HR,age_bin,"(30, 40]",0.15308641975308643,405
+department,HR,age_bin,"(40, 50]",0.1906005221932115,383
+department,HR,age_bin,"(50, 65]",0.16494845360824742,291
+department,IT,age_bin,"(18, 30]",0.1536144578313253,332
+department,IT,age_bin,"(30, 40]",0.15365853658536585,410
+department,IT,age_bin,"(40, 50]",0.1232876712328767,365
+department,IT,age_bin,"(50, 65]",0.16147308781869688,353
+department,Marketing,age_bin,"(18, 30]",0.17846153846153845,325
+department,Marketing,age_bin,"(30, 40]",0.17539267015706805,382
+department,Marketing,age_bin,"(40, 50]",0.19137466307277629,371
+department,Marketing,age_bin,"(50, 65]",0.1484593837535014,357
+department,Operations,age_bin,"(18, 30]",0.2090032154340836,311
+department,Operations,age_bin,"(30, 40]",0.12234042553191489,376
+department,Operations,age_bin,"(40, 50]",0.17352941176470588,340
+department,Operations,age_bin,"(50, 65]",0.15853658536585366,328
+department,R&D,age_bin,"(18, 30]",0.14035087719298245,342
+department,R&D,age_bin,"(30, 40]",0.13352272727272727,352
+department,R&D,age_bin,"(40, 50]",0.1724137931034483,406
+department,R&D,age_bin,"(50, 65]",0.17553191489361702,376
+department,Sales,age_bin,"(18, 30]",0.17484662576687116,326
+department,Sales,age_bin,"(30, 40]",0.18055555555555555,360
+department,Sales,age_bin,"(40, 50]",0.13864306784660768,339
+department,Sales,age_bin,"(50, 65]",0.13068181818181818,352
+department,Finance,income_bin,"(2999.999, 7292.0]",0.15702479338842976,363
+department,Finance,income_bin,"(7292.0, 11588.5]",0.16839378238341968,386
+department,Finance,income_bin,"(11588.5, 15743.5]",0.144,375
+department,Finance,income_bin,"(15743.5, 19999.0]",0.19466666666666665,375
+department,HR,income_bin,"(2999.999, 7292.0]",0.1813186813186813,364
+department,HR,income_bin,"(7292.0, 11588.5]",0.15204678362573099,342
+department,HR,income_bin,"(11588.5, 15743.5]",0.17307692307692307,364
+department,HR,income_bin,"(15743.5, 19999.0]",0.15853658536585366,328
+department,IT,income_bin,"(2999.999, 7292.0]",0.15249266862170088,341
+department,IT,income_bin,"(7292.0, 11588.5]",0.15447154471544716,369
+department,IT,income_bin,"(11588.5, 15743.5]",0.10991957104557641,373
+department,IT,income_bin,"(15743.5, 19999.0]",0.17506631299734748,377
+department,Marketing,income_bin,"(2999.999, 7292.0]",0.1763085399449036,363
+department,Marketing,income_bin,"(7292.0, 11588.5]",0.17287234042553193,376
+department,Marketing,income_bin,"(11588.5, 15743.5]",0.18181818181818182,352
+department,Marketing,income_bin,"(15743.5, 19999.0]",0.16279069767441862,344
+department,Operations,income_bin,"(2999.999, 7292.0]",0.16147308781869688,353
+department,Operations,income_bin,"(7292.0, 11588.5]",0.17313432835820897,335
+department,Operations,income_bin,"(11588.5, 15743.5]",0.15315315315315314,333
+department,Operations,income_bin,"(15743.5, 19999.0]",0.16766467065868262,334
+department,R&D,income_bin,"(2999.999, 7292.0]",0.136986301369863,365
+department,R&D,income_bin,"(7292.0, 11588.5]",0.15760869565217392,368
+department,R&D,income_bin,"(11588.5, 15743.5]",0.14736842105263157,380
+department,R&D,income_bin,"(15743.5, 19999.0]",0.18457300275482094,363
+department,Sales,income_bin,"(2999.999, 7292.0]",0.1590909090909091,352
+department,Sales,income_bin,"(7292.0, 11588.5]",0.1393188854489164,323
+department,Sales,income_bin,"(11588.5, 15743.5]",0.16408668730650156,323
+department,Sales,income_bin,"(15743.5, 19999.0]",0.16094986807387862,379
+department,Finance,distance_bin,"(0.999, 8.0]",0.14285714285714285,434
+department,Finance,distance_bin,"(8.0, 15.0]",0.1897018970189702,369
+department,Finance,distance_bin,"(15.0, 22.0]",0.16997167138810199,353
+department,Finance,distance_bin,"(22.0, 29.0]",0.1661807580174927,343
+department,HR,distance_bin,"(0.999, 8.0]",0.1649746192893401,394
+department,HR,distance_bin,"(8.0, 15.0]",0.1745152354570637,361
+department,HR,distance_bin,"(15.0, 22.0]",0.15434083601286175,311
+department,HR,distance_bin,"(22.0, 29.0]",0.1716867469879518,332
+department,IT,distance_bin,"(0.999, 8.0]",0.16793893129770993,393
+department,IT,distance_bin,"(8.0, 15.0]",0.16524216524216523,351
+department,IT,distance_bin,"(15.0, 22.0]",0.11878453038674033,362
+department,IT,distance_bin,"(22.0, 29.0]",0.1384180790960452,354
+department,Marketing,distance_bin,"(0.999, 8.0]",0.18622448979591838,392
+department,Marketing,distance_bin,"(8.0, 15.0]",0.1798780487804878,328
+department,Marketing,distance_bin,"(15.0, 22.0]",0.16573033707865167,356
+department,Marketing,distance_bin,"(22.0, 29.0]",0.1615598885793872,359
+department,Operations,distance_bin,"(0.999, 8.0]",0.14588859416445624,377
+department,Operations,distance_bin,"(8.0, 15.0]",0.16352201257861634,318
+department,Operations,distance_bin,"(15.0, 22.0]",0.17757009345794392,321
+department,Operations,distance_bin,"(22.0, 29.0]",0.1710914454277286,339
+department,R&D,distance_bin,"(0.999, 8.0]",0.13902439024390245,410
+department,R&D,distance_bin,"(8.0, 15.0]",0.14739884393063585,346
+department,R&D,distance_bin,"(15.0, 22.0]",0.1553133514986376,367
+department,R&D,distance_bin,"(22.0, 29.0]",0.18696883852691218,353
+department,Sales,distance_bin,"(0.999, 8.0]",0.16358839050131926,379
+department,Sales,distance_bin,"(8.0, 15.0]",0.1661807580174927,343
+department,Sales,distance_bin,"(15.0, 22.0]",0.14681440443213298,361
+department,Sales,distance_bin,"(22.0, 29.0]",0.14625850340136054,294
+department,Finance,tenure_bin,"(0, 2]",0.20689655172413793,145
+department,Finance,tenure_bin,"(2, 5]",0.12272727272727273,220
+department,Finance,tenure_bin,"(5, 10]",0.14814814814814814,378
+department,Finance,tenure_bin,"(10, 40]",0.15214180206794684,677
+department,HR,tenure_bin,"(0, 2]",0.2196969696969697,132
+department,HR,tenure_bin,"(2, 5]",0.1589958158995816,239
+department,HR,tenure_bin,"(5, 10]",0.1373134328358209,335
+department,HR,tenure_bin,"(10, 40]",0.16830065359477125,612
+department,IT,tenure_bin,"(0, 2]",0.22535211267605634,142
+department,IT,tenure_bin,"(2, 5]",0.1336206896551724,232
+department,IT,tenure_bin,"(5, 10]",0.12129380053908356,371
+department,IT,tenure_bin,"(10, 40]",0.13803680981595093,652
+department,Marketing,tenure_bin,"(0, 2]",0.21705426356589147,129
+department,Marketing,tenure_bin,"(2, 5]",0.16831683168316833,202
+department,Marketing,tenure_bin,"(5, 10]",0.17902813299232737,391
+department,Marketing,tenure_bin,"(10, 40]",0.152276295133438,637
+department,Operations,tenure_bin,"(0, 2]",0.24390243902439024,123
+department,Operations,tenure_bin,"(2, 5]",0.15151515151515152,198
+department,Operations,tenure_bin,"(5, 10]",0.1590909090909091,352
+department,Operations,tenure_bin,"(10, 40]",0.14262023217247097,603
+department,R&D,tenure_bin,"(0, 2]",0.21678321678321677,143
+department,R&D,tenure_bin,"(2, 5]",0.12334801762114538,227
+department,R&D,tenure_bin,"(5, 10]",0.15089514066496162,391
+department,R&D,tenure_bin,"(10, 40]",0.15091463414634146,656
+department,Sales,tenure_bin,"(0, 2]",0.16083916083916083,143
+department,Sales,tenure_bin,"(2, 5]",0.17525773195876287,194
+department,Sales,tenure_bin,"(5, 10]",0.14245014245014245,351
+department,Sales,tenure_bin,"(10, 40]",0.1383147853736089,629
+department,Finance,low_job_satisfaction,0,0.07880434782608696,736
+department,Finance,low_job_satisfaction,1,0.2503276539973788,763
+department,HR,low_job_satisfaction,0,0.04667609618104668,707
+department,HR,low_job_satisfaction,1,0.2894356005788712,691
+department,IT,low_job_satisfaction,0,0.05063291139240506,711
+department,IT,low_job_satisfaction,1,0.24032042723631508,749
+department,Marketing,low_job_satisfaction,0,0.04296296296296296,675
+department,Marketing,low_job_satisfaction,1,0.2894736842105263,760
+department,Operations,low_job_satisfaction,0,0.055639097744360905,665
+department,Operations,low_job_satisfaction,1,0.26811594202898553,690
+department,R&D,low_job_satisfaction,0,0.052700922266139656,759
+department,R&D,low_job_satisfaction,1,0.26638772663877264,717
+department,Sales,low_job_satisfaction,0,0.05063291139240506,711
+department,Sales,low_job_satisfaction,1,0.26876876876876876,666
+department,Finance,poor_work_life,0,0.12722298221614228,731
+department,Finance,poor_work_life,1,0.203125,768
+department,HR,poor_work_life,0,0.14204545454545456,704
+department,HR,poor_work_life,1,0.19164265129682997,694
+department,IT,poor_work_life,0,0.11185983827493262,742
+department,IT,poor_work_life,1,0.18523676880222842,718
+department,Marketing,poor_work_life,0,0.14958448753462603,722
+department,Marketing,poor_work_life,1,0.19775596072931276,713
+department,Operations,poor_work_life,0,0.12641815235008103,617
+department,Operations,poor_work_life,1,0.1951219512195122,738
+department,R&D,poor_work_life,0,0.13043478260869565,736
+department,R&D,poor_work_life,1,0.18243243243243243,740
+department,Sales,poor_work_life,0,0.11959654178674352,694
+department,Sales,poor_work_life,1,0.19326500732064422,683
+department,Finance,long_role_stagnation,0,0.19181034482758622,464
+department,Finance,long_role_stagnation,1,0.15458937198067632,1035
+department,HR,long_role_stagnation,0,0.1815856777493606,391
+department,HR,long_role_stagnation,1,0.1608738828202582,1007
+department,IT,long_role_stagnation,0,0.13846153846153847,455
+department,IT,long_role_stagnation,1,0.15223880597014924,1005
+department,Marketing,long_role_stagnation,0,0.19002375296912113,421
+department,Marketing,long_role_stagnation,1,0.16666666666666666,1014
+department,Operations,long_role_stagnation,0,0.14987080103359174,387
+department,Operations,long_role_stagnation,1,0.16942148760330578,968
+department,R&D,long_role_stagnation,0,0.1592920353982301,452
+department,R&D,long_role_stagnation,1,0.1552734375,1024
+department,Sales,long_role_stagnation,0,0.1571753986332574,439
+department,Sales,long_role_stagnation,1,0.15565031982942432,938
+department,Finance,long_commute,0,0.1602136181575434,749
+department,Finance,long_commute,1,0.172,750
+department,HR,long_commute,0,0.16147308781869688,706
+department,HR,long_commute,1,0.17196531791907516,692
+department,IT,long_commute,0,0.16666666666666666,702
+department,IT,long_commute,1,0.13060686015831136,758
+department,Marketing,long_commute,0,0.17333333333333334,675
+department,Marketing,long_commute,1,0.1736842105263158,760
+department,Operations,long_commute,0,0.15644171779141106,652
+department,Operations,long_commute,1,0.17069701280227595,703
+department,R&D,long_commute,0,0.14145658263305322,714
+department,R&D,long_commute,1,0.17060367454068243,762
+department,Sales,long_commute,0,0.16393442622950818,671
+department,Sales,long_commute,1,0.14872521246458922,706
+jobrole,Analyst,overtime,No,0.138353765323993,1142
+jobrole,Analyst,overtime,Yes,0.20647773279352227,494
+jobrole,Coordinator,overtime,No,0.14516129032258066,1178
+jobrole,Coordinator,overtime,Yes,0.2147117296222664,503
+jobrole,Engineer,overtime,No,0.12478920741989882,1186
+jobrole,Engineer,overtime,Yes,0.234375,512
+jobrole,Executive,overtime,No,0.11570247933884298,1210
+jobrole,Executive,overtime,Yes,0.21822033898305085,472
+jobrole,Manager,overtime,No,0.15286080273270708,1171
+jobrole,Manager,overtime,Yes,0.23984526112185686,517
+jobrole,Specialist,overtime,No,0.13768755516328332,1133
+jobrole,Specialist,overtime,Yes,0.21991701244813278,482
+jobrole,Analyst,age_bin,"(18, 30]",0.1736842105263158,380
+jobrole,Analyst,age_bin,"(30, 40]",0.12702078521939955,433
+jobrole,Analyst,age_bin,"(40, 50]",0.1651376146788991,436
+jobrole,Analyst,age_bin,"(50, 65]",0.1731266149870801,387
+jobrole,Coordinator,age_bin,"(18, 30]",0.14214463840399003,401
+jobrole,Coordinator,age_bin,"(30, 40]",0.17841409691629956,454
+jobrole,Coordinator,age_bin,"(40, 50]",0.16336633663366337,404
+jobrole,Coordinator,age_bin,"(50, 65]",0.17772511848341233,422
+jobrole,Engineer,age_bin,"(18, 30]",0.1641025641025641,390
+jobrole,Engineer,age_bin,"(30, 40]",0.1638655462184874,476
+jobrole,Engineer,age_bin,"(40, 50]",0.15280898876404495,445
+jobrole,Engineer,age_bin,"(50, 65]",0.14987080103359174,387
+jobrole,Executive,age_bin,"(18, 30]",0.14249363867684478,393
+jobrole,Executive,age_bin,"(30, 40]",0.16411378555798686,457
+jobrole,Executive,age_bin,"(40, 50]",0.1353211009174312,436
+jobrole,Executive,age_bin,"(50, 65]",0.13383838383838384,396
+jobrole,Manager,age_bin,"(18, 30]",0.195822454308094,383
+jobrole,Manager,age_bin,"(30, 40]",0.1711111111111111,450
+jobrole,Manager,age_bin,"(40, 50]",0.19114219114219114,429
+jobrole,Manager,age_bin,"(50, 65]",0.1619718309859155,426
+jobrole,Specialist,age_bin,"(18, 30]",0.166189111747851,349
+jobrole,Specialist,age_bin,"(30, 40]",0.14219114219114218,429
+jobrole,Specialist,age_bin,"(40, 50]",0.17233560090702948,441
+jobrole,Specialist,age_bin,"(50, 65]",0.1691919191919192,396
+jobrole,Analyst,income_bin,"(2999.999, 7292.0]",0.1407035175879397,398
+jobrole,Analyst,income_bin,"(7292.0, 11588.5]",0.15424164524421594,389
+jobrole,Analyst,income_bin,"(11588.5, 15743.5]",0.14047619047619048,420
+jobrole,Analyst,income_bin,"(15743.5, 19999.0]",0.19813519813519814,429
+jobrole,Coordinator,income_bin,"(2999.999, 7292.0]",0.1839080459770115,435
+jobrole,Coordinator,income_bin,"(7292.0, 11588.5]",0.14823529411764705,425
+jobrole,Coordinator,income_bin,"(11588.5, 15743.5]",0.13425925925925927,432
+jobrole,Coordinator,income_bin,"(15743.5, 19999.0]",0.20051413881748073,389
+jobrole,Engineer,income_bin,"(2999.999, 7292.0]",0.16028708133971292,418
+jobrole,Engineer,income_bin,"(7292.0, 11588.5]",0.1836283185840708,452
+jobrole,Engineer,income_bin,"(11588.5, 15743.5]",0.1558139534883721,430
+jobrole,Engineer,income_bin,"(15743.5, 19999.0]",0.12814070351758794,398
+jobrole,Executive,income_bin,"(2999.999, 7292.0]",0.12356979405034325,437
+jobrole,Executive,income_bin,"(7292.0, 11588.5]",0.14285714285714285,399
+jobrole,Executive,income_bin,"(11588.5, 15743.5]",0.15463917525773196,388
+jobrole,Executive,income_bin,"(15743.5, 19999.0]",0.1572052401746725,458
+jobrole,Manager,income_bin,"(2999.999, 7292.0]",0.1971153846153846,416
+jobrole,Manager,income_bin,"(7292.0, 11588.5]",0.16478555304740405,443
+jobrole,Manager,income_bin,"(11588.5, 15743.5]",0.16585365853658537,410
+jobrole,Manager,income_bin,"(15743.5, 19999.0]",0.1909307875894988,419
+jobrole,Specialist,income_bin,"(2999.999, 7292.0]",0.15869017632241814,397
+jobrole,Specialist,income_bin,"(7292.0, 11588.5]",0.1636828644501279,391
+jobrole,Specialist,income_bin,"(11588.5, 15743.5]",0.16666666666666666,420
+jobrole,Specialist,income_bin,"(15743.5, 19999.0]",0.1597051597051597,407
+jobrole,Analyst,distance_bin,"(0.999, 8.0]",0.16023166023166024,518
+jobrole,Analyst,distance_bin,"(8.0, 15.0]",0.14323607427055704,377
+jobrole,Analyst,distance_bin,"(15.0, 22.0]",0.1518324607329843,382
+jobrole,Analyst,distance_bin,"(22.0, 29.0]",0.181058495821727,359
+jobrole,Coordinator,distance_bin,"(0.999, 8.0]",0.16025641025641027,468
+jobrole,Coordinator,distance_bin,"(8.0, 15.0]",0.17616580310880828,386
+jobrole,Coordinator,distance_bin,"(15.0, 22.0]",0.17042606516290726,399
+jobrole,Coordinator,distance_bin,"(22.0, 29.0]",0.1588785046728972,428
+jobrole,Engineer,distance_bin,"(0.999, 8.0]",0.14482758620689656,435
+jobrole,Engineer,distance_bin,"(8.0, 15.0]",0.16626506024096385,415
+jobrole,Engineer,distance_bin,"(15.0, 22.0]",0.17040358744394618,446
+jobrole,Engineer,distance_bin,"(22.0, 29.0]",0.14925373134328357,402
+jobrole,Executive,distance_bin,"(0.999, 8.0]",0.15106382978723404,470
+jobrole,Executive,distance_bin,"(8.0, 15.0]",0.16262135922330098,412
+jobrole,Executive,distance_bin,"(15.0, 22.0]",0.1319796954314721,394
+jobrole,Executive,distance_bin,"(22.0, 29.0]",0.13054187192118227,406
+jobrole,Manager,distance_bin,"(0.999, 8.0]",0.1714922048997773,449
+jobrole,Manager,distance_bin,"(8.0, 15.0]",0.18009478672985782,422
+jobrole,Manager,distance_bin,"(15.0, 22.0]",0.16428571428571428,420
+jobrole,Manager,distance_bin,"(22.0, 29.0]",0.2040302267002519,397
+jobrole,Specialist,distance_bin,"(0.999, 8.0]",0.16173120728929385,439
+jobrole,Specialist,distance_bin,"(8.0, 15.0]",0.18811881188118812,404
+jobrole,Specialist,distance_bin,"(15.0, 22.0]",0.13846153846153847,390
+jobrole,Specialist,distance_bin,"(22.0, 29.0]",0.15968586387434555,382
+jobrole,Analyst,tenure_bin,"(0, 2]",0.1901840490797546,163
+jobrole,Analyst,tenure_bin,"(2, 5]",0.12244897959183673,245
+jobrole,Analyst,tenure_bin,"(5, 10]",0.15403422982885084,409
+jobrole,Analyst,tenure_bin,"(10, 40]",0.15868673050615595,731
+jobrole,Coordinator,tenure_bin,"(0, 2]",0.19760479041916168,167
+jobrole,Coordinator,tenure_bin,"(2, 5]",0.15289256198347106,242
+jobrole,Coordinator,tenure_bin,"(5, 10]",0.14444444444444443,450
+jobrole,Coordinator,tenure_bin,"(10, 40]",0.1601615074024226,743
+jobrole,Engineer,tenure_bin,"(0, 2]",0.20987654320987653,162
+jobrole,Engineer,tenure_bin,"(2, 5]",0.11836734693877551,245
+jobrole,Engineer,tenure_bin,"(5, 10]",0.15436241610738255,447
+jobrole,Engineer,tenure_bin,"(10, 40]",0.14153439153439154,756
+jobrole,Executive,tenure_bin,"(0, 2]",0.19148936170212766,141
+jobrole,Executive,tenure_bin,"(2, 5]",0.12186379928315412,279
+jobrole,Executive,tenure_bin,"(5, 10]",0.1367713004484305,446
+jobrole,Executive,tenure_bin,"(10, 40]",0.1325136612021858,732
+jobrole,Manager,tenure_bin,"(0, 2]",0.25,168
+jobrole,Manager,tenure_bin,"(2, 5]",0.20532319391634982,263
+jobrole,Manager,tenure_bin,"(5, 10]",0.1715686274509804,408
+jobrole,Manager,tenure_bin,"(10, 40]",0.15364583333333334,768
+jobrole,Specialist,tenure_bin,"(0, 2]",0.23076923076923078,156
+jobrole,Specialist,tenure_bin,"(2, 5]",0.15966386554621848,238
+jobrole,Specialist,tenure_bin,"(5, 10]",0.13202933985330073,409
+jobrole,Specialist,tenure_bin,"(10, 40]",0.14673913043478262,736
+jobrole,Analyst,low_job_satisfaction,0,0.04561824729891957,833
+jobrole,Analyst,low_job_satisfaction,1,0.2764632627646326,803
+jobrole,Coordinator,low_job_satisfaction,0,0.058333333333333334,840
+jobrole,Coordinator,low_job_satisfaction,1,0.2734839476813318,841
+jobrole,Engineer,low_job_satisfaction,0,0.05741626794258373,836
+jobrole,Engineer,low_job_satisfaction,1,0.2552204176334107,862
+jobrole,Executive,low_job_satisfaction,0,0.04941176470588235,850
+jobrole,Executive,low_job_satisfaction,1,0.24158653846153846,832
+jobrole,Manager,low_job_satisfaction,0,0.0625782227784731,799
+jobrole,Manager,low_job_satisfaction,1,0.2845894263217098,889
+jobrole,Specialist,low_job_satisfaction,0,0.052109181141439205,806
+jobrole,Specialist,low_job_satisfaction,1,0.2719406674907293,809
+jobrole,Analyst,poor_work_life,0,0.12298136645962733,805
+jobrole,Analyst,poor_work_life,1,0.19374247894103488,831
+jobrole,Coordinator,poor_work_life,0,0.1223021582733813,834
+jobrole,Coordinator,poor_work_life,1,0.2089728453364817,847
+jobrole,Engineer,poor_work_life,0,0.13177339901477833,812
+jobrole,Engineer,poor_work_life,1,0.18171557562076748,886
+jobrole,Executive,poor_work_life,0,0.12758620689655173,870
+jobrole,Executive,poor_work_life,1,0.1625615763546798,812
+jobrole,Manager,poor_work_life,0,0.14911242603550295,845
+jobrole,Manager,poor_work_life,1,0.2099644128113879,843
+jobrole,Specialist,poor_work_life,0,0.12307692307692308,780
+jobrole,Specialist,poor_work_life,1,0.19880239520958085,835
+jobrole,Analyst,long_role_stagnation,0,0.15520628683693516,509
+jobrole,Analyst,long_role_stagnation,1,0.160603371783496,1127
+jobrole,Coordinator,long_role_stagnation,0,0.15250544662309368,459
+jobrole,Coordinator,long_role_stagnation,1,0.17103109656301146,1222
+jobrole,Engineer,long_role_stagnation,0,0.17657657657657658,555
+jobrole,Engineer,long_role_stagnation,1,0.14873140857392825,1143
+jobrole,Executive,long_role_stagnation,0,0.15490196078431373,510
+jobrole,Executive,long_role_stagnation,1,0.13993174061433447,1172
+jobrole,Manager,long_role_stagnation,0,0.18640776699029127,515
+jobrole,Manager,long_role_stagnation,1,0.17647058823529413,1173
+jobrole,Specialist,long_role_stagnation,0,0.1735357917570499,461
+jobrole,Specialist,long_role_stagnation,1,0.15771230502599654,1154
+jobrole,Analyst,long_commute,0,0.14934289127837516,837
+jobrole,Analyst,long_commute,1,0.16896120150187735,799
+jobrole,Coordinator,long_commute,0,0.1623296158612144,807
+jobrole,Coordinator,long_commute,1,0.16933638443935928,874
+jobrole,Engineer,long_commute,0,0.14866581956797967,787
+jobrole,Engineer,long_commute,1,0.16575192096597147,911
+jobrole,Executive,long_commute,0,0.15643802647412755,831
+jobrole,Executive,long_commute,1,0.13278495887191538,851
+jobrole,Manager,long_commute,0,0.17364532019704434,812
+jobrole,Manager,long_commute,1,0.18493150684931506,876
+jobrole,Specialist,long_commute,0,0.17232704402515722,795
+jobrole,Specialist,long_commute,1,0.1524390243902439,820
+overtime,No,age_bin,"(18, 30]",0.140361821584529,1603
+overtime,No,age_bin,"(30, 40]",0.13399894902785076,1903
+overtime,No,age_bin,"(40, 50]",0.128500823723229,1821
+overtime,No,age_bin,"(50, 65]",0.14057885410513882,1693
+overtime,Yes,age_bin,"(18, 30]",0.2178932178932179,693
+overtime,Yes,age_bin,"(30, 40]",0.21608040201005024,796
+overtime,Yes,age_bin,"(40, 50]",0.24545454545454545,770
+overtime,Yes,age_bin,"(50, 65]",0.20943134535367544,721
+overtime,No,income_bin,"(2999.999, 7292.0]",0.13530415008527572,1759
+overtime,No,income_bin,"(7292.0, 11588.5]",0.13940092165898618,1736
+overtime,No,income_bin,"(11588.5, 15743.5]",0.12346368715083798,1790
+overtime,No,income_bin,"(15743.5, 19999.0]",0.14466858789625361,1735
+overtime,Yes,income_bin,"(2999.999, 7292.0]",0.2210242587601078,742
+overtime,Yes,income_bin,"(7292.0, 11588.5]",0.20707732634338138,763
+overtime,Yes,income_bin,"(11588.5, 15743.5]",0.2267605633802817,710
+overtime,Yes,income_bin,"(15743.5, 19999.0]",0.23529411764705882,765
+overtime,No,distance_bin,"(0.999, 8.0]",0.13655030800821355,1948
+overtime,No,distance_bin,"(8.0, 15.0]",0.14507462686567163,1675
+overtime,No,distance_bin,"(15.0, 22.0]",0.12991452991452992,1755
+overtime,No,distance_bin,"(22.0, 29.0]",0.13093788063337394,1642
+overtime,Yes,distance_bin,"(0.999, 8.0]",0.20938628158844766,831
+overtime,Yes,distance_bin,"(8.0, 15.0]",0.2253711201079622,741
+overtime,Yes,distance_bin,"(15.0, 22.0]",0.22041420118343194,676
+overtime,Yes,distance_bin,"(22.0, 29.0]",0.23633879781420766,732
+overtime,No,tenure_bin,"(0, 2]",0.19469026548672566,678
+overtime,No,tenure_bin,"(2, 5]",0.12397447584320875,1097
+overtime,No,tenure_bin,"(5, 10]",0.1245025582717453,1759
+overtime,No,tenure_bin,"(10, 40]",0.12160868177465688,3133
+overtime,Yes,tenure_bin,"(0, 2]",0.25448028673835127,279
+overtime,Yes,tenure_bin,"(2, 5]",0.20722891566265061,415
+overtime,Yes,tenure_bin,"(5, 10]",0.20123456790123456,810
+overtime,Yes,tenure_bin,"(10, 40]",0.21305326331582897,1333
+overtime,No,low_job_satisfaction,0,0.016431248198328047,3469
+overtime,No,low_job_satisfaction,1,0.25204167840045055,3551
+overtime,Yes,low_job_satisfaction,0,0.14180602006688964,1495
+overtime,Yes,low_job_satisfaction,1,0.3037037037037037,1485
+overtime,No,poor_work_life,0,0.13497283385759223,3497
+overtime,No,poor_work_life,1,0.13624751632131707,3523
+overtime,Yes,poor_work_life,0,0.11663216011042098,1449
+overtime,Yes,poor_work_life,1,0.32266492488569565,1531
+overtime,No,long_role_stagnation,0,0.1415633937082936,2098
+overtime,No,long_role_stagnation,1,0.13307598537180007,4922
+overtime,Yes,long_role_stagnation,0,0.22502744237102085,911
+overtime,Yes,long_role_stagnation,1,0.22136297728371193,2069
+overtime,No,long_commute,0,0.13754427390791027,3388
+overtime,No,long_commute,1,0.13381057268722468,3632
+overtime,Yes,long_commute,0,0.21269412559081702,1481
+overtime,Yes,long_commute,1,0.23215476984656438,1499
+age_bin,"(18, 30]",income_bin,"(2999.999, 7292.0]",0.16455696202531644,553
+age_bin,"(18, 30]",income_bin,"(7292.0, 11588.5]",0.1646655231560892,583
+age_bin,"(18, 30]",income_bin,"(11588.5, 15743.5]",0.17275747508305647,602
+age_bin,"(18, 30]",income_bin,"(15743.5, 19999.0]",0.15232974910394265,558
+age_bin,"(30, 40]",income_bin,"(2999.999, 7292.0]",0.1555891238670695,662
+age_bin,"(30, 40]",income_bin,"(7292.0, 11588.5]",0.16279069767441862,688
+age_bin,"(30, 40]",income_bin,"(11588.5, 15743.5]",0.15173410404624277,692
+age_bin,"(30, 40]",income_bin,"(15743.5, 19999.0]",0.1628614916286149,657
+age_bin,"(40, 50]",income_bin,"(2999.999, 7292.0]",0.15742128935532235,667
+age_bin,"(40, 50]",income_bin,"(7292.0, 11588.5]",0.1633281972265023,649
+age_bin,"(40, 50]",income_bin,"(11588.5, 15743.5]",0.1568627450980392,612
+age_bin,"(40, 50]",income_bin,"(15743.5, 19999.0]",0.17496229260935142,663
+age_bin,"(50, 65]",income_bin,"(2999.999, 7292.0]",0.16639741518578352,619
+age_bin,"(50, 65]",income_bin,"(7292.0, 11588.5]",0.14853195164075994,579
+age_bin,"(50, 65]",income_bin,"(11588.5, 15743.5]",0.12962962962962962,594
+age_bin,"(50, 65]",income_bin,"(15743.5, 19999.0]",0.1977491961414791,622
+age_bin,"(18, 30]",distance_bin,"(0.999, 8.0]",0.1702127659574468,611
+age_bin,"(18, 30]",distance_bin,"(8.0, 15.0]",0.16457960644007155,559
+age_bin,"(18, 30]",distance_bin,"(15.0, 22.0]",0.14814814814814814,567
+age_bin,"(18, 30]",distance_bin,"(22.0, 29.0]",0.17173524150268335,559
+age_bin,"(30, 40]",distance_bin,"(0.999, 8.0]",0.164021164021164,756
+age_bin,"(30, 40]",distance_bin,"(8.0, 15.0]",0.1617873651771957,649
+age_bin,"(30, 40]",distance_bin,"(15.0, 22.0]",0.15838509316770186,644
+age_bin,"(30, 40]",distance_bin,"(22.0, 29.0]",0.1476923076923077,650
+age_bin,"(40, 50]",distance_bin,"(0.999, 8.0]",0.1494413407821229,716
+age_bin,"(40, 50]",distance_bin,"(8.0, 15.0]",0.1684867394695788,641
+age_bin,"(40, 50]",distance_bin,"(15.0, 22.0]",0.1687116564417178,652
+age_bin,"(40, 50]",distance_bin,"(22.0, 29.0]",0.16838487972508592,582
+age_bin,"(50, 65]",distance_bin,"(0.999, 8.0]",0.15086206896551724,696
+age_bin,"(50, 65]",distance_bin,"(8.0, 15.0]",0.18518518518518517,567
+age_bin,"(50, 65]",distance_bin,"(15.0, 22.0]",0.1426056338028169,568
+age_bin,"(50, 65]",distance_bin,"(22.0, 29.0]",0.1680960548885077,583
+age_bin,"(18, 30]",tenure_bin,"(0, 2]",0.2072072072072072,222
+age_bin,"(18, 30]",tenure_bin,"(2, 5]",0.13583815028901733,346
+age_bin,"(18, 30]",tenure_bin,"(5, 10]",0.15754560530679934,603
+age_bin,"(18, 30]",tenure_bin,"(10, 40]",0.15004935834155972,1013
+age_bin,"(30, 40]",tenure_bin,"(0, 2]",0.196,250
+age_bin,"(30, 40]",tenure_bin,"(2, 5]",0.14074074074074075,405
+age_bin,"(30, 40]",tenure_bin,"(5, 10]",0.1388888888888889,684
+age_bin,"(30, 40]",tenure_bin,"(10, 40]",0.15213815789473684,1216
+age_bin,"(40, 50]",tenure_bin,"(0, 2]",0.21115537848605578,251
+age_bin,"(40, 50]",tenure_bin,"(2, 5]",0.16507177033492823,418
+age_bin,"(40, 50]",tenure_bin,"(5, 10]",0.1580547112462006,658
+age_bin,"(40, 50]",tenure_bin,"(10, 40]",0.14788732394366197,1136
+age_bin,"(50, 65]",tenure_bin,"(0, 2]",0.23504273504273504,234
+age_bin,"(50, 65]",tenure_bin,"(2, 5]",0.14285714285714285,343
+age_bin,"(50, 65]",tenure_bin,"(5, 10]",0.14102564102564102,624
+age_bin,"(50, 65]",tenure_bin,"(10, 40]",0.14532243415077203,1101
+age_bin,"(18, 30]",low_job_satisfaction,0,0.05604982206405694,1124
+age_bin,"(18, 30]",low_job_satisfaction,1,0.26706484641638223,1172
+age_bin,"(30, 40]",low_job_satisfaction,0,0.052593133674214754,1369
+age_bin,"(30, 40]",low_job_satisfaction,1,0.2669172932330827,1330
+age_bin,"(40, 50]",low_job_satisfaction,0,0.05551330798479087,1315
+age_bin,"(40, 50]",low_job_satisfaction,1,0.274294670846395,1276
+age_bin,"(50, 65]",low_job_satisfaction,0,0.052768166089965395,1156
+age_bin,"(50, 65]",low_job_satisfaction,1,0.26073131955484896,1258
+age_bin,"(18, 30]",poor_work_life,0,0.13900955690703737,1151
+age_bin,"(18, 30]",poor_work_life,1,0.188646288209607,1145
+age_bin,"(30, 40]",poor_work_life,0,0.11984732824427481,1310
+age_bin,"(30, 40]",poor_work_life,1,0.19438444924406048,1389
+age_bin,"(40, 50]",poor_work_life,0,0.13498836307214895,1289
+age_bin,"(40, 50]",poor_work_life,1,0.1912442396313364,1302
+age_bin,"(50, 65]",poor_work_life,0,0.1254180602006689,1196
+age_bin,"(50, 65]",poor_work_life,1,0.1962233169129721,1218
+age_bin,"(18, 30]",long_role_stagnation,0,0.18313953488372092,688
+age_bin,"(18, 30]",long_role_stagnation,1,0.15547263681592038,1608
+age_bin,"(30, 40]",long_role_stagnation,0,0.16125,800
+age_bin,"(30, 40]",long_role_stagnation,1,0.1569246972090574,1899
+age_bin,"(40, 50]",long_role_stagnation,0,0.17026683608640406,787
+age_bin,"(40, 50]",long_role_stagnation,1,0.16019955654101994,1804
+age_bin,"(50, 65]",long_role_stagnation,0,0.1539509536784741,734
+age_bin,"(50, 65]",long_role_stagnation,1,0.16428571428571428,1680
+age_bin,"(18, 30]",long_commute,0,0.16304347826086957,1104
+age_bin,"(18, 30]",long_commute,1,0.1644295302013423,1192
+age_bin,"(30, 40]",long_commute,0,0.15606060606060607,1320
+age_bin,"(30, 40]",long_commute,1,0.1602610587382161,1379
+age_bin,"(40, 50]",long_commute,0,0.15694006309148265,1268
+age_bin,"(40, 50]",long_commute,1,0.1693121693121693,1323
+age_bin,"(50, 65]",long_commute,0,0.16652506372132542,1177
+age_bin,"(50, 65]",long_commute,1,0.15602263540824576,1237
+income_bin,"(2999.999, 7292.0]",distance_bin,"(0.999, 8.0]",0.1432791728212703,677
+income_bin,"(2999.999, 7292.0]",distance_bin,"(8.0, 15.0]",0.18568994889267462,587
+income_bin,"(2999.999, 7292.0]",distance_bin,"(15.0, 22.0]",0.1639871382636656,622
+income_bin,"(2999.999, 7292.0]",distance_bin,"(22.0, 29.0]",0.15284552845528454,615
+income_bin,"(7292.0, 11588.5]",distance_bin,"(0.999, 8.0]",0.15508021390374332,748
+income_bin,"(7292.0, 11588.5]",distance_bin,"(8.0, 15.0]",0.17706576728499157,593
+income_bin,"(7292.0, 11588.5]",distance_bin,"(15.0, 22.0]",0.14334470989761092,586
+income_bin,"(7292.0, 11588.5]",distance_bin,"(22.0, 29.0]",0.1660839160839161,572
+income_bin,"(11588.5, 15743.5]",distance_bin,"(0.999, 8.0]",0.16911764705882354,680
+income_bin,"(11588.5, 15743.5]",distance_bin,"(8.0, 15.0]",0.14513556618819776,627
+income_bin,"(11588.5, 15743.5]",distance_bin,"(15.0, 22.0]",0.1546218487394958,595
+income_bin,"(11588.5, 15743.5]",distance_bin,"(22.0, 29.0]",0.14046822742474915,598
+income_bin,"(15743.5, 19999.0]",distance_bin,"(0.999, 8.0]",0.1661721068249258,674
+income_bin,"(15743.5, 19999.0]",distance_bin,"(8.0, 15.0]",0.1724137931034483,609
+income_bin,"(15743.5, 19999.0]",distance_bin,"(15.0, 22.0]",0.15764331210191082,628
+income_bin,"(15743.5, 19999.0]",distance_bin,"(22.0, 29.0]",0.19524617996604415,589
+income_bin,"(2999.999, 7292.0]",tenure_bin,"(0, 2]",0.22844827586206898,232
+income_bin,"(2999.999, 7292.0]",tenure_bin,"(2, 5]",0.14210526315789473,380
+income_bin,"(2999.999, 7292.0]",tenure_bin,"(5, 10]",0.15764331210191082,628
+income_bin,"(2999.999, 7292.0]",tenure_bin,"(10, 40]",0.14772727272727273,1144
+income_bin,"(7292.0, 11588.5]",tenure_bin,"(0, 2]",0.21171171171171171,222
+income_bin,"(7292.0, 11588.5]",tenure_bin,"(2, 5]",0.1561771561771562,429
+income_bin,"(7292.0, 11588.5]",tenure_bin,"(5, 10]",0.1529790660225443,621
+income_bin,"(7292.0, 11588.5]",tenure_bin,"(10, 40]",0.14568345323741008,1112
+income_bin,"(11588.5, 15743.5]",tenure_bin,"(0, 2]",0.21153846153846154,260
+income_bin,"(11588.5, 15743.5]",tenure_bin,"(2, 5]",0.13372093023255813,344
+income_bin,"(11588.5, 15743.5]",tenure_bin,"(5, 10]",0.13663663663663664,666
+income_bin,"(11588.5, 15743.5]",tenure_bin,"(10, 40]",0.13496376811594202,1104
+income_bin,"(15743.5, 19999.0]",tenure_bin,"(0, 2]",0.19753086419753085,243
+income_bin,"(15743.5, 19999.0]",tenure_bin,"(2, 5]",0.1532033426183844,359
+income_bin,"(15743.5, 19999.0]",tenure_bin,"(5, 10]",0.14831804281345565,654
+income_bin,"(15743.5, 19999.0]",tenure_bin,"(10, 40]",0.16726943942133815,1106
+income_bin,"(2999.999, 7292.0]",low_job_satisfaction,0,0.04146730462519936,1254
+income_bin,"(2999.999, 7292.0]",low_job_satisfaction,1,0.2806736166800321,1247
+income_bin,"(7292.0, 11588.5]",low_job_satisfaction,0,0.06031746031746032,1260
+income_bin,"(7292.0, 11588.5]",low_job_satisfaction,1,0.26150121065375304,1239
+income_bin,"(11588.5, 15743.5]",low_job_satisfaction,0,0.05490848585690516,1202
+income_bin,"(11588.5, 15743.5]",low_job_satisfaction,1,0.24345146379044685,1298
+income_bin,"(15743.5, 19999.0]",low_job_satisfaction,0,0.06009615384615385,1248
+income_bin,"(15743.5, 19999.0]",low_job_satisfaction,1,0.28434504792332266,1252
+income_bin,"(2999.999, 7292.0]",poor_work_life,0,0.13032984714400644,1243
+income_bin,"(2999.999, 7292.0]",poor_work_life,1,0.1907790143084261,1258
+income_bin,"(7292.0, 11588.5]",poor_work_life,0,0.1271860095389507,1258
+income_bin,"(7292.0, 11588.5]",poor_work_life,1,0.19339242546333602,1241
+income_bin,"(11588.5, 15743.5]",poor_work_life,0,0.11350455675227837,1207
+income_bin,"(11588.5, 15743.5]",poor_work_life,1,0.18948182521268367,1293
+income_bin,"(15743.5, 19999.0]",poor_work_life,0,0.1470113085621971,1238
+income_bin,"(15743.5, 19999.0]",poor_work_life,1,0.19730586370839936,1262
+income_bin,"(2999.999, 7292.0]",long_role_stagnation,0,0.1825503355704698,745
+income_bin,"(2999.999, 7292.0]",long_role_stagnation,1,0.15148063781321183,1756
+income_bin,"(7292.0, 11588.5]",long_role_stagnation,0,0.16026490066225166,755
+income_bin,"(7292.0, 11588.5]",long_role_stagnation,1,0.15997706422018348,1744
+income_bin,"(11588.5, 15743.5]",long_role_stagnation,0,0.14342105263157895,760
+income_bin,"(11588.5, 15743.5]",long_role_stagnation,1,0.15689655172413794,1740
+income_bin,"(15743.5, 19999.0]",long_role_stagnation,0,0.18157543391188252,749
+income_bin,"(15743.5, 19999.0]",long_role_stagnation,1,0.1684751570531125,1751
+income_bin,"(2999.999, 7292.0]",long_commute,0,0.15949367088607594,1185
+income_bin,"(2999.999, 7292.0]",long_commute,1,0.16185410334346503,1316
+income_bin,"(7292.0, 11588.5]",long_commute,0,0.162291169451074,1257
+income_bin,"(7292.0, 11588.5]",long_commute,1,0.15780998389694043,1242
+income_bin,"(11588.5, 15743.5]",long_commute,0,0.15196078431372548,1224
+income_bin,"(11588.5, 15743.5]",long_commute,1,0.1536050156739812,1276
+income_bin,"(15743.5, 19999.0]",long_commute,0,0.16791354945968412,1203
+income_bin,"(15743.5, 19999.0]",long_commute,1,0.17656129529683887,1297
+distance_bin,"(0.999, 8.0]",tenure_bin,"(0, 2]",0.2,250
+distance_bin,"(0.999, 8.0]",tenure_bin,"(2, 5]",0.14148681055155876,417
+distance_bin,"(0.999, 8.0]",tenure_bin,"(5, 10]",0.14444444444444443,720
+distance_bin,"(0.999, 8.0]",tenure_bin,"(10, 40]",0.14936102236421725,1252
+distance_bin,"(8.0, 15.0]",tenure_bin,"(0, 2]",0.21666666666666667,240
+distance_bin,"(8.0, 15.0]",tenure_bin,"(2, 5]",0.13953488372093023,344
+distance_bin,"(8.0, 15.0]",tenure_bin,"(5, 10]",0.15057283142389524,611
+distance_bin,"(8.0, 15.0]",tenure_bin,"(10, 40]",0.15799086757990868,1095
+distance_bin,"(15.0, 22.0]",tenure_bin,"(0, 2]",0.20833333333333334,240
+distance_bin,"(15.0, 22.0]",tenure_bin,"(2, 5]",0.1586021505376344,372
+distance_bin,"(15.0, 22.0]",tenure_bin,"(5, 10]",0.13787638668779714,631
+distance_bin,"(15.0, 22.0]",tenure_bin,"(10, 40]",0.14018691588785046,1070
+distance_bin,"(22.0, 29.0]",tenure_bin,"(0, 2]",0.22466960352422907,227
+distance_bin,"(22.0, 29.0]",tenure_bin,"(2, 5]",0.14775725593667546,379
+distance_bin,"(22.0, 29.0]",tenure_bin,"(5, 10]",0.1630971993410214,607
+distance_bin,"(22.0, 29.0]",tenure_bin,"(10, 40]",0.14775977121067682,1049
+distance_bin,"(0.999, 8.0]",low_job_satisfaction,0,0.04509090909090909,1375
+distance_bin,"(0.999, 8.0]",low_job_satisfaction,1,0.2692307692307692,1404
+distance_bin,"(8.0, 15.0]",low_job_satisfaction,0,0.06265664160401002,1197
+distance_bin,"(8.0, 15.0]",low_job_satisfaction,1,0.2748154224774405,1219
+distance_bin,"(15.0, 22.0]",low_job_satisfaction,0,0.0495458298926507,1211
+distance_bin,"(15.0, 22.0]",low_job_satisfaction,1,0.2598360655737705,1220
+distance_bin,"(22.0, 29.0]",low_job_satisfaction,0,0.06096528365791702,1181
+distance_bin,"(22.0, 29.0]",low_job_satisfaction,1,0.26487845766974016,1193
+distance_bin,"(0.999, 8.0]",poor_work_life,0,0.12675018422991893,1357
+distance_bin,"(0.999, 8.0]",poor_work_life,1,0.18846694796061886,1422
+distance_bin,"(8.0, 15.0]",poor_work_life,0,0.13580246913580246,1215
+distance_bin,"(8.0, 15.0]",poor_work_life,1,0.20399666944213155,1201
+distance_bin,"(15.0, 22.0]",poor_work_life,0,0.12908496732026145,1224
+distance_bin,"(15.0, 22.0]",poor_work_life,1,0.18144159072079535,1207
+distance_bin,"(22.0, 29.0]",poor_work_life,0,0.12695652173913044,1150
+distance_bin,"(22.0, 29.0]",poor_work_life,1,0.1977124183006536,1224
+distance_bin,"(0.999, 8.0]",long_role_stagnation,0,0.1672394043528064,873
+distance_bin,"(0.999, 8.0]",long_role_stagnation,1,0.15424973767051417,1906
+distance_bin,"(8.0, 15.0]",long_role_stagnation,0,0.17158931082981715,711
+distance_bin,"(8.0, 15.0]",long_role_stagnation,1,0.1689149560117302,1705
+distance_bin,"(15.0, 22.0]",long_role_stagnation,0,0.16304347826086957,736
+distance_bin,"(15.0, 22.0]",long_role_stagnation,1,0.15162241887905606,1695
+distance_bin,"(22.0, 29.0]",long_role_stagnation,0,0.16545718432510886,689
+distance_bin,"(22.0, 29.0]",long_role_stagnation,1,0.1626112759643917,1685
+distance_bin,"(0.999, 8.0]",long_commute,0,0.15833033465275279,2779
+distance_bin,"(8.0, 15.0]",long_commute,0,0.1631578947368421,2090
+distance_bin,"(8.0, 15.0]",long_commute,1,0.2116564417177914,326
+distance_bin,"(15.0, 22.0]",long_commute,1,0.15508021390374332,2431
+distance_bin,"(22.0, 29.0]",long_commute,1,0.16343723673125526,2374
+tenure_bin,"(0, 2]",low_job_satisfaction,0,0.10759493670886076,474
+tenure_bin,"(0, 2]",low_job_satisfaction,1,0.3146997929606625,483
+tenure_bin,"(2, 5]",low_job_satisfaction,0,0.032467532467532464,770
+tenure_bin,"(2, 5]",low_job_satisfaction,1,0.26549865229110514,742
+tenure_bin,"(5, 10]",low_job_satisfaction,0,0.04426877470355731,1265
+tenure_bin,"(5, 10]",low_job_satisfaction,1,0.25,1304
+tenure_bin,"(10, 40]",low_job_satisfaction,0,0.04200542005420054,2214
+tenure_bin,"(10, 40]",low_job_satisfaction,1,0.2539964476021314,2252
+tenure_bin,"(0, 2]",poor_work_life,0,0.17381974248927037,466
+tenure_bin,"(0, 2]",poor_work_life,1,0.2484725050916497,491
+tenure_bin,"(2, 5]",poor_work_life,0,0.11202185792349727,732
+tenure_bin,"(2, 5]",poor_work_life,1,0.1794871794871795,780
+tenure_bin,"(5, 10]",poor_work_life,0,0.11644374508261211,1271
+tenure_bin,"(5, 10]",poor_work_life,1,0.1802773497688752,1298
+tenure_bin,"(10, 40]",poor_work_life,0,0.118491921005386,2228
+tenure_bin,"(10, 40]",poor_work_life,1,0.17917783735478104,2238
+tenure_bin,"(0, 2]",long_role_stagnation,0,0.20701754385964913,285
+tenure_bin,"(0, 2]",long_role_stagnation,1,0.21428571428571427,672
+tenure_bin,"(2, 5]",long_role_stagnation,0,0.14285714285714285,441
+tenure_bin,"(2, 5]",long_role_stagnation,1,0.1484593837535014,1071
+tenure_bin,"(5, 10]",long_role_stagnation,0,0.16090425531914893,752
+tenure_bin,"(5, 10]",long_role_stagnation,1,0.14364336818932305,1817
+tenure_bin,"(10, 40]",long_role_stagnation,0,0.1513157894736842,1368
+tenure_bin,"(10, 40]",long_role_stagnation,1,0.14783731439638476,3098
+tenure_bin,"(0, 2]",long_commute,0,0.19739696312364424,461
+tenure_bin,"(0, 2]",long_commute,1,0.22580645161290322,496
+tenure_bin,"(2, 5]",long_commute,0,0.13904494382022473,712
+tenure_bin,"(2, 5]",long_commute,1,0.15375,800
+tenure_bin,"(5, 10]",long_commute,0,0.1407884151246983,1243
+tenure_bin,"(5, 10]",long_commute,1,0.15610859728506787,1326
+tenure_bin,"(10, 40]",long_commute,0,0.15227272727272728,2200
+tenure_bin,"(10, 40]",long_commute,1,0.14563106796116504,2266
+low_job_satisfaction,0,poor_work_life,0,0.016082474226804123,2425
+low_job_satisfaction,0,poor_work_life,1,0.09058684521465143,2539
+low_job_satisfaction,1,poor_work_life,0,0.23879412931376437,2521
+low_job_satisfaction,1,poor_work_life,1,0.29582504970178924,2515
+low_job_satisfaction,0,long_role_stagnation,0,0.054268696227663796,1511
+low_job_satisfaction,0,long_role_stagnation,1,0.054155806545033304,3453
+low_job_satisfaction,1,long_role_stagnation,0,0.2803738317757009,1498
+low_job_satisfaction,1,long_role_stagnation,1,0.26172979084228376,3538
+low_job_satisfaction,0,long_commute,0,0.05256622516556291,2416
+low_job_satisfaction,0,long_commute,1,0.05572998430141287,2548
+low_job_satisfaction,1,long_commute,0,0.2666123114553608,2453
+low_job_satisfaction,1,long_commute,1,0.2679055361982191,2583
+poor_work_life,0,long_role_stagnation,0,0.1467645096731154,1499
+poor_work_life,0,long_role_stagnation,1,0.12213519002030751,3447
+poor_work_life,1,long_role_stagnation,0,0.18675496688741722,1510
+poor_work_life,1,long_role_stagnation,1,0.19525959367945825,3544
+poor_work_life,0,long_commute,0,0.12831125827814568,2416
+poor_work_life,0,long_commute,1,0.1308300395256917,2530
+poor_work_life,1,long_commute,0,0.19200978393803506,2453
+poor_work_life,1,long_commute,1,0.19338715878508267,2601
+long_role_stagnation,0,long_commute,0,0.1665542818610924,1483
+long_role_stagnation,0,long_commute,1,0.16710353866317168,1526
+long_role_stagnation,1,long_commute,0,0.1577082102776137,3386
+long_role_stagnation,1,long_commute,1,0.16061026352288488,3605
