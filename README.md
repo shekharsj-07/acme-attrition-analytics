@@ -140,11 +140,6 @@ http://localhost:8501
 
 ---
 
-## Notes
-
-- Docker runs independently of local virtual environments
-- The venv directory is ignored during Docker build
-- Relative paths ensure compatibility across local and Docker runs
 
 ---
 
