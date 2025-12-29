@@ -9,13 +9,8 @@ a detailed exploratory and multivariate analysis.
 The app focuses on:
 1. Understanding individual attrition drivers
 2. Exploring dangerous feature combinations
-3. Providing executive-ready insights
+3. Providing ready-to-present insights
 
-DESIGN PRINCIPLES
------------------
-- No confusing statistical jargon in UI
-- Always show a chart (no blank screens)
-- Simple controls → clear insight
 """
 
 import streamlit as st
@@ -31,7 +26,7 @@ st.set_page_config(
     layout="wide"
 )
 # -------------------------------------------------
-# UI Styling: Larger dropdowns & better spacing
+# UI Styling
 # -------------------------------------------------
 st.markdown(
     """
@@ -224,10 +219,10 @@ with tab2:
         st.info("No data available for this combination.")
 
 # =====================================================
-# TAB 3 — EXECUTIVE SUMMARY
+# TAB 3 — SUMMARY
 # =====================================================
 with tab3:
-    st.header("Executive Summary & Key Insights")
+    st.header("Inferences & Key Insights")
 
     top_drivers = (
         df_pairs.groupby("feature_1")["attrition_rate"]
